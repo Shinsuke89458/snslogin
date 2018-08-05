@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 
 define('DSN', 'mysql:dbhost=localhost;dbname=snsdb');
 define('DB_USERNAME', 'dbuser');
-define('DB_PASSWORD', '********');
+define('DB_PASSWORD', 'shin0622');
 
 define('SITE_URL', 'http://' . $_SERVER['HTTP_HOST']);
 
