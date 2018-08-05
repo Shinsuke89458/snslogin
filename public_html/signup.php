@@ -1,13 +1,9 @@
 <?php
-
 // 新規登録
-
 require_once(__DIR__ . '/../config/config.php');
 
 $app = new MyApp\Controller\Signup();
-
 $app->run();
-
 
 ?>
 <!DOCTYPE html>

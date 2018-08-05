@@ -54,7 +54,7 @@ class Login extends \MyApp\Controller {
   private function _validate() {
     if (
       !isset($_POST['token']) ||
-      // !isset($_SESSION['token']) ||
+      !isset($_SESSION['token']) ||
       $_POST['token'] !== $_SESSION['token']
     ) {
       echo 'Invalid Token!';
