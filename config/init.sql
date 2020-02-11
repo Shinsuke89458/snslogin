@@ -1,6 +1,6 @@
 create database snsdb;
 
-grant all on snsdb.* to dbuser@localhost identified by 'shin0622';
+grant all on snsdb.* to dbuser@localhost identified by '*******';
 
 use snsdb
 
